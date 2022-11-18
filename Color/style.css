@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#color{
+    width: 50px;
+    height: 50px;
+
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#color::-webkit-color-swatch{
+    border-radius: 10px;
+    border: 3px solid white;
+}
